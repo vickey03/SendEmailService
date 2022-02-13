@@ -93,7 +93,7 @@ app.post('/emailMessage',(req, res) => {
         }
         htmlMailBody += `</ul>`;
         const mailOptions = {
-            to: 'vickeychowdary448@gmail.com',
+            to: 'naidulic1838@gmail.com',
             from: req.body.email,
             subject: `Agent registered`,
             html: htmlMailBody
